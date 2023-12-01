@@ -136,8 +136,8 @@ header{
     padding: 5px 10px;
 } 
 
-iframe{
-    width: 100%;
+img{
+    max-width: 100%;
 }
 
 .col-recipe{
