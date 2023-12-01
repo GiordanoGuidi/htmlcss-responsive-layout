@@ -56,6 +56,10 @@ body{
     margin: 0 auto;
 }
 
+.main-container{
+    padding: 20px;
+}
+
 h1{
     font-family: 'Nerko One', cursive;
     font-size: 3rem;
@@ -66,11 +70,7 @@ h3{
     color: #4E3969;
     font-size: 2rem;
     font-weight: 800;
-    margin-top: 10px;
-}
-
-.row{
-    padding: 0px 20px;
+    margin:10px 0px 20px 0px
 }
 
 ul{
@@ -91,10 +91,6 @@ header{
 
 /*MAIN*/
 /*SECTION TIRAMISù-INFORMATION*/
-.recipe-title{
-    padding-top: 20px;
-}
-
 .rate{
     position: absolute;
     right: 30px;
@@ -118,6 +114,10 @@ iframe{
     width: 100%;
 }
 
+.col-recipe{
+    padding: 30px;
+}
+
 .calories{
     background-color: #7C69A4;
     color: white;
@@ -128,10 +128,6 @@ iframe{
 .vegan{
     display: block;
     margin-top: 10px;
-}
-
-.col{
-    padding: 30px;
 }
 
 .info{
