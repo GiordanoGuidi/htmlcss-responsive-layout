@@ -1,0 +1,16 @@
+/*MODALITA TABLET (SOPRA I 768PX)*/
+
+@media screen and (min-width:768px) {
+    h1{
+        text-align: start;
+    }
+}
+
+
+/*MODALITA DESKTOP (SOPRA I 992PX)*/
+
+@media screen and (min-width:992px) {
+    h1{
+        font-size: 6rem;
+    }
+}

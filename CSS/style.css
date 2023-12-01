@@ -6,10 +6,49 @@
 }
 
 /*UTILS*/
+/*UTILS COLORS*/
+
+/*COLORI BLOCCHI*/
+.bg-green{
+    background-color: greenyellow;
+}
+
+.bg-brown{
+    background-color: brown;
+}
+
+.bg-blue{
+    background-color: dodgerblue;
+}
+/**/
+
 .c-yellow{
     color: #F7972D;
 }
 
+.bg-white{
+    background-color: white;
+}
+
+.bg-gray{
+    background-color: #F6F5F9;
+}
+
+.mt-20px{
+    margin-top: 20px;
+}
+
+.padd-20{
+    padding: 20px 20px;
+}
+
+.flex{
+    display: flex;
+} 
+
+.relative{
+    position: relative;
+}
 
 /*GENERICS*/
 body{
@@ -22,5 +61,104 @@ h1{
     font-size: 3rem;
     text-align: center;
 }
+
+h3{
+    color: #4E3969;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.row{
+    padding: 0px 20px;
+}
+
+ul{
+    list-style: none;
+    padding-top: 20px;
+    line-height: 2rem;
+}
+
+i{
+    padding-right: 5px;
+}
+
+
+/*HEADER*/
+header{
+    padding: 20px 0px;
+}
+
+/*MAIN*/
+/*SECTION TIRAMISù-INFORMATION*/
+.recipe-title{
+    padding-top: 20px;
+}
+
+.rate{
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.fa-star{
+    color: #F7972D;
+}
+
+.button-rate{
+    border-radius: 20px;
+    background-color:#F7972D;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px 10px;
+} 
+
+iframe{
+    width: 100%;
+}
+
+.calories{
+    background-color: #7C69A4;
+    color: white;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.vegan{
+    display: block;
+    margin-top: 10px;
+}
+
+.col{
+    padding: 30px;
+}
+
+.info{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.col-social{
+    margin-top: 30px;
+}
+
+.card-icon{
+    background-color: white;
+    border-radius: 50%;
+}
+
+.card-icon i{
+    padding: 10px 12px;
+}
+
+
+
+
+
+
+
+
 
  
