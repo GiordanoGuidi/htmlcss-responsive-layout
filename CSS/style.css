@@ -7,7 +7,27 @@
 
 /*UTILS*/
 /*UTILS COLORS*/
+/*ICON'S COLORS*/
 
+.fb-color{
+    color: #1977F3;
+}
+
+.twitt-color{
+    color: #009EFF;
+}
+
+.insta-color{
+    color: #E17BAC;
+}
+
+.pint-color{
+    color: #E62C32;
+}
+
+.ytube-color{
+    color: #E52322;
+}
 /*COLORI BLOCCHI*/
 .bg-green{
     background-color: greenyellow;
@@ -70,13 +90,15 @@ h3{
     color: #4E3969;
     font-size: 2rem;
     font-weight: 800;
-    margin:10px 0px 20px 0px
+    margin:10px 0px 20px 0px;
+    display: inline-block;
 }
 
 ul{
     list-style: none;
     padding-top: 20px;
     line-height: 2rem;
+    flex-wrap: wrap;
 }
 
 i{
@@ -95,6 +117,10 @@ header{
     position: absolute;
     right: 30px;
     bottom: 30px;
+}
+
+.h3-hidden{
+    display: none;
 }
 
 .fa-star{
@@ -141,8 +167,9 @@ iframe{
 }
 
 .card-icon{
+    align-items: center;
     background-color: white;
-    border-radius: 50%;
+    border-radius: 20px;
 }
 
 .card-icon i{

@@ -3,7 +3,26 @@
 @media screen and (min-width:768px) {
     h1{
         text-align: start;
+        font-size: 4rem;
     }
+
+    .main-container{
+        padding: 40px;
+    }
+
+    .h3-hidden{
+        display: inline-block;
+    }
+
+    ul{
+        display: flex;
+        gap: 20px;
+    }
+
+    .card-icon i{
+        padding: 10px 40px;
+    }
+
 }
 
 
