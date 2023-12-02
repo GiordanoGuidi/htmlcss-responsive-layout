@@ -23,6 +23,15 @@
         padding: 10px 40px;
     }
 
+    #banner-img{
+        display: block;
+    }
+
+    .card.img-recipe-presentation{
+        float: left;
+        margin-right: 10px;
+    }
+
 }
 
 
