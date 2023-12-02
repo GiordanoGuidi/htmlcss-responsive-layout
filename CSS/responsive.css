@@ -32,4 +32,29 @@
     h1{
         font-size: 6rem;
     }
+
+    .row-recipe{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    ul{
+        display: block;
+    }
+
+    .card-img{
+        flex-basis: 70%;
+    }
+
+    .col-recipe{
+        flex-basis: 30%;
+    }
+
+    .col-social{
+        flex-basis: 100%;
+    }
+
+    .social-hidden{
+        display: inline-block;
+    }
 }

@@ -103,6 +103,7 @@ ul{
 
 i{
     padding-right: 5px;
+    display: inline-block;
 }
 
 
@@ -137,11 +138,12 @@ header{
 } 
 
 img{
-    max-width: 100%;
+    width: 100%;
 }
 
 .col-recipe{
     padding: 30px;
+    font-size: 0.8rem;
 }
 
 .calories{
@@ -174,6 +176,17 @@ img{
 
 .card-icon i{
     padding: 10px 12px;
+}
+
+.fa-brands{
+    padding-right: 5px;
+}
+
+.social-hidden{
+    display: none;
+    padding-left: 5px;
+    color: black;
+    font-weight: 600;
 }
 
 
