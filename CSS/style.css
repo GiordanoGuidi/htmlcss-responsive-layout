@@ -29,18 +29,6 @@
     color: #E52322;
 }
 /*COLORI BLOCCHI*/
-.bg-green{
-    background-color: greenyellow;
-}
-
-.bg-brown{
-    background-color: brown;
-}
-
-.bg-blue{
-    background-color: dodgerblue;
-}
-/**/
 .c-yellow{
     color: #F7972D;
 }
@@ -51,10 +39,6 @@
 
 .bg-gray{
     background-color: #F6F5F9;
-}
-
-.mt-20px{
-    margin-top: 20px;
 }
 
 .padd-20{
@@ -120,7 +104,7 @@ header{
 }
 
 /*MAIN*/
-/*SECTION TIRAMISù-INFORMATION*/
+/*SECTION RECIPE*/
 .rate{
     position: absolute;
     right: 30px;
@@ -175,8 +159,9 @@ img{
     right: 20px;
 }
 
+/*COLUMN SOCIAL ICONS*/
 .col-social{
-    margin-top: 30px;
+    margin: 30px;
 }
 
 .card-icon{
@@ -206,9 +191,8 @@ img{
 }
 
 /*SECTION RECIPE PRESENTATION*/
-
 #recipe-presentation{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .hr-short{
@@ -223,8 +207,10 @@ img{
     max-width: 300px;
     max-height: 200px;
     display: block;
+    float: left;
     margin-left: auto;
     margin-right: auto;
+    margin-right: 10px;
 }
 
 .main-text{
