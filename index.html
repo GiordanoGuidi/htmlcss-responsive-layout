@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
 
     <!--FONTAWESOME-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
     <!--STYLESHEET-->
     <link rel="stylesheet" href="./CSS/style.css">
@@ -24,65 +24,81 @@
 </head>
 <body>
     <!--HEADER-->
-        <header class="bg-white">
-            <h1 class="c-yellow">GIALLO BOOLEANO</h1>
-        </header>
-        <main class="bg-gray">
-            <div class="main-container">
-                <!--SECTION RECIPE-->
-                <section id="recipe">
-                    <div class="recipe-title relative">
-                        <p>DOLCI E DESSERTS</p>
-                        <h3>Tiramisù <span class="h3-hidden">(Dolce Tradizione)</span></h3>
-                        <div class="rate">
-                            <span><i class="fa-solid fa-star"></i></span><span>4,6/5</span>
-                            <span><a href="#" class="button-rate">RATE</a></span>
+    <header class="bg-white">
+        <h1 class="c-yellow">GIALLO BOOLEANO</h1>
+    </header>
+    <!---->
+    <main class="bg-gray">
+        <div class="main-container">
+            <!--SECTION RECIPE-->
+            <section id="recipe">
+                <div class="recipe-title relative">
+                    <p>DOLCI E DESSERTS</p>
+                    <h3>Tiramisù <span class="h3-hidden">(Dolce Tradizione)</span></h3>
+                    <div class="rate">
+                        <span><i class="fa-solid fa-star"></i></span><span>4,6/5</span>
+                        <span><a href="#" class="button-rate">RATE</a></span>
+                    </div>
+                </div>
+                <!--ROW-->
+                <div class="row-recipe">
+                    <div class="card-img">
+                        <img src="https://www.giallozafferano.it/images/173-17354/Tiramisu_650x433_wm.jpg" alt="">
+                    </div>
+                    <div class="col-recipe bg-white">
+                        <div class="card-recipe bg-white">
+                            <div class="recipe-info relative padd-20 bg-gray">
+                                <p class="calories">544 Kcal</p>
+                                <hr>
+                                <span class="vegan"><i class="fa-solid fa-carrot"></i>VEGETARIANO</span>
+                                <p class="info c-yellow">+info</p>
+                            </div>
+                            <ul>
+                                <li><span><i class="fa-solid fa-blender c-yellow"></i>Difficoltà:</span><span>Facile</span></li>
+                                <li><span><i class="fa-regular fa-clock c-yellow"></i>Tempo:</span><span>40 min</span></li>
+                                <li><span><i class="fa-solid fa-chart-pie c-yellow"></i>Porzione per:</span><span>8 persone</span></li>
+                                <li><span><i class="fa-solid fa-euro-sign c-yellow"></i>Costo</span><span>contenuto</span></li>
+                                <li><span><i class="fa-regular fa-note-sticky c-yellow"></i>Note</span><span>: +2 ore di riposo in frigo</span></li>
+                            </ul>
                         </div>
                     </div>
-                    <!--ROW-->
-                    <div class="row-recipe">
-                        <div class="card-img">
-                            <img src="https://www.giallozafferano.it/images/173-17354/Tiramisu_650x433_wm.jpg" alt="">
-                        </div>
-                        <div class="col-recipe bg-white">
-                            <div class="card-recipe bg-white">
-                                <div class="recipe-info relative padd-20 bg-gray">
-                                    <p class="calories">544 Kcal</p>
-                                    <hr>
-                                    <span class="vegan"><i class="fa-solid fa-carrot"></i>VEGETARIANO</span>
-                                    <p class="info c-yellow">+info</p>
-                                </div>
-                                <ul>
-                                    <li><span><i class="fa-solid fa-blender c-yellow"></i>Difficoltà:</span><span>Facile</span></li>
-                                    <li><span><i class="fa-regular fa-clock c-yellow"></i>Tempo:</span><span>40 min</span></li>
-                                    <li><span><i class="fa-solid fa-chart-pie c-yellow"></i>Porzione per:</span><span>8 persone</span></li>
-                                    <li><span><i class="fa-solid fa-euro-sign c-yellow"></i>Costo</span><span>contenuto</span></li>
-                                    <li><span><i class="fa-regular fa-note-sticky c-yellow"></i>Note</span><span>: +2 ore di riposo in frigo</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--COLUMN SOCIAL ICONS-->
-                        <div class="col-social flex ">
-                            <button class="card-icon">
-                                <i class="fa-brands fa-facebook fb-color"><span class="social-hidden">FACEBOOK</span></i>
-                            </button>
-                            <button class="card-icon">
-                                <i class="fa-brands fa-twitter twitt-color"><span class="social-hidden">TWITTER</span></i>
-                            </button>
-                            <button class="card-icon">
-                                <i class="fa-brands fa-instagram insta-color"><span class="social-hidden">INSTAGRAM</span></i>
-                            </button>
-                            <button class="card-icon">
-                                <i class="fa-brands fa-pinterest pint-color"><span class="social-hidden">PINTEREST</span></i>
-                            </button>
-                            <button class="card-icon">
-                                <i class="fa-brands fa-youtube ytube-color"><span class="social-hidden">YOUTUBE</span></i>
-                            </button>
-                            </div>
-                        </div>
+                    <!--COLUMN SOCIAL ICONS-->
+                    <div class="col-social flex ">
+                        <button class="card-icon">
+                            <i class="fa-brands fa-facebook fb-color"><span class="social-hidden">FACEBOOK</span></i>
+                        </button>
+                        <button class="card-icon">
+                            <i class="fa-brands fa-twitter twitt-color"><span class="social-hidden">TWITTER</span></i>
+                        </button>
+                        <button class="card-icon">
+                            <i class="fa-brands fa-instagram insta-color"><span class="social-hidden">INSTAGRAM</span></i>
+                        </button>
+                        <button class="card-icon">
+                            <i class="fa-brands fa-pinterest pint-color"><span class="social-hidden">PINTEREST</span></i>
+                        </button>
+                        <button class="card-icon">
+                            <i class="fa-brands fa-youtube ytube-color"><span class="social-hidden">YOUTUBE</span></i>
+                        </button>
                     </div>
-                </section>
-            </div>
-        </main>
+                    <div id="banner-img">
+                        <img src="img/banner.png" alt="#">
+                    </div>
+                </div>
+            </section>
+            <!--SECTION RECIPE PRESENTATION-->
+            <section id="recipe-presentation">
+                <h2>PRESENTATION</h2>
+                <hr class="hr-short">
+                <div class="card img-recipe-presentation">
+                    <img src="img/tiramisu.jpg" alt="" class="img-recipe-presentation">
+                </div>
+                <p class="main-text">Tiramisu is one of the cornerstones of Italian cuisine, one of the most loved and made desserts in the world. The origins of tiramisu are very uncertain and several cities claim its paternity. What we are certain of is that from 1980 onwards, the year in which this term was inserted into the Italian vocabulary, <span class="bold">Tiramisu</span> has had enormous success! Today it is among the best-known Italian words abroad. But what makes tiramisu so special? We certainly love the fact that it is very simple to prepare, its mascarpone cream is irresistible, so tasty and velvety, interspersed with layers of ladyfingers soaked in coffee! There are those who love to flavor the syrup with Marsala and those who prefer to use other liqueurs, but we love it this way, in purity and we offer you the most classic version, perfect for every occasion!
+                    Even if we have not discovered who the inventor of tiramisu in the current version is for sure, identified by some as Ado Campeol (the owner of the well-known and historic restaurant "Il Becchiere" in Treviso), we share with you our recipe for one of the best tiramisu you have ever tasted! Prepare it too and let us know!
+                    And after preparing the classic one, discover these delicious variations. Even if we have not discovered who the inventor of tiramisu in the current version is for sure, identified by some as Ado Campeol (the owner of the well-known and historic restaurant "Il Becchiere" in Treviso), we share with you our recipe for one of the best tiramisu you have ever tasted! Prepare it too and let us know!
+                    And after preparing the classic one, discover these delicious variations.
+                </p>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
