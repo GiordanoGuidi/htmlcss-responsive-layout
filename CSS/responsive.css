@@ -74,9 +74,19 @@
         padding: 20px 20px;
         display: flex;
         justify-content: space-between;
+        margin: 0;
     }
 
     footer > *{
         margin: 0;
+    }
+
+    .info-and-address{
+        text-align: left;
+    }
+    
+
+    .recipe-title{
+        display: flex;
     }
 }
