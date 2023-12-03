@@ -50,10 +50,6 @@
         flex-wrap: wrap;
     }
 
-    ul{
-        display: block;
-    }
-
     .card-img{
         flex-basis: 70%;
     }
@@ -85,7 +81,6 @@
         text-align: left;
     }
     
-
     .recipe-title{
         display: flex;
     }
