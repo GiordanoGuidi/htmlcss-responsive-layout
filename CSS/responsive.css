@@ -28,8 +28,6 @@
         display: block;
     }
 }
-
-
 /*MODALITA DESKTOP (SOPRA I 992PX)*/
 
 @media screen and (min-width:992px) {
@@ -50,7 +48,8 @@
         flex-wrap: wrap;
     }
 
-    .card-img{
+    .recipe-video{
+        max-height: 600px;
         flex-basis: 70%;
     }
 
