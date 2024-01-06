@@ -82,7 +82,7 @@ h3{
     display: inline-block;
 }
 
-i{
+li i{
     padding-right: 5px;
     display: inline-block;
 }
@@ -186,7 +186,8 @@ ul.list-icons{
     border-radius: 20px;
     border: transparent;
     box-shadow: 5px 5px 5px #dedede;
-    /* padding: 10px 12px; */
+    cursor: pointer;
+    padding: 10px 15px;
 }
 
 .social-hidden{
